@@ -1,4 +1,4 @@
-jQuery.noConflict();
-jQuery(document).ready(function(){
-	
+$j = jQuery.noConflict();
+$j(document).ready(function(){
+	alert('testing');
 });
