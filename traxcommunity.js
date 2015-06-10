@@ -5,5 +5,6 @@ var header = '<div class="zen"><div class="zen-headerTop zen-bgdThemed brandZero
 
 $j(document).ready(function(){
 	$j('#AppBodyHeader').prepend(header);
+	$j('.btn').addClass('btn-primary');
 });
 
